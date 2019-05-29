@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/eTongDai/Main/AppDelegate.m \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/eTongDai/Main/AppDelegate.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/eTongDai/UI/View/ETDContactsSelectView.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/CodePush/CodePush.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/../node_modules/react-native-launch-image/ios/RNLaunchImage.h \
+  ../node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/../node_modules/jpush-react-native/ios/RCTJPushModule/RCTJPushModule.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/../node_modules/jpush-react-native/ios/RCTJPushModule/JPUSHService.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBundleURLProvider.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPushNotificationManager.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/eTongDai/Tool/Lib/GrowingIO-iOS-SDK/Growing.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/eTongDai/Tool/Lib/Tingyun/tingyunApp.framework/Headers/NBSAppAgent.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/eTongDai/Tool/Lib/Wechat/WXApi.h \
+  /Users/zhoulin/Documents/workspace/EtongdaiRN/ios/eTongDai/Tool/Lib/Wechat/WXApiObject.h

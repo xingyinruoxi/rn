@@ -1,0 +1,293 @@
+apply plugin: "com.android.application"
+apply plugin: "com.growingio.android"
+apply plugin: 'newlens' //tingyun mark
+apply plugin: 'com.waynell.tinypng'
+apply plugin: 'com.getkeepsafe.dexcount'
+
+/**
+ * The react.gradle file registers a task for each build variant (e.g. bundleDebugJsAndAssets
+ * and bundleReleaseJsAndAssets).
+ * These basically call `react-native bundle` with the correct arguments during the Android build
+ * cycle. By default, bundleDebugJsAndAssets is skipped, as in debug/dev mode we prefer to load the
+ * bundle directly from the development server. Below you can see all the possible configurations
+ * and their defaults. If you decide to add a configuration block, make sure to add it before the
+ * `apply from: "../../node_modules/react-native/react.gradle"` line.
+ *
+ * project.ext.react = [
+ *   // the name of the generated asset file containing your JS bundle
+ *   bundleAssetName: "index.android.bundle",
+ *
+ *   // the entry file for bundle generation
+ *   entryFile: "index.android.js",
+ *
+ *   // whether to bundle JS and assets in debug mode
+ *   bundleInDebug: false,
+ *
+ *   // whether to bundle JS and assets in release mode
+ *   bundleInRelease: true,
+ *
+ *   // whether to bundle JS and assets in another build variant (if configured).
+ *   // See http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Build-Variants
+ *   // The configuration property can be in the following formats
+ *   //         'bundleIn${productFlavor}${buildType}'
+ *   //         'bundleIn${buildType}'
+ *   // bundleInFreeDebug: true,
+ *   // bundleInPaidRelease: true,
+ *   // bundleInBeta: true,
+ *
+ *   // whether to disable dev mode in custom build variants (by default only disabled in release)
+ *   // for example: to disable dev mode in the staging build type (if configured)
+ *   devDisabledInStaging: true,
+ *   // The configuration property can be in the following formats
+ *   //         'devDisabledIn${productFlavor}${buildType}'
+ *   //         'devDisabledIn${buildType}'
+ *
+ *   // the root of your project, i.e. where "package.json" lives
+ *   root: "../../",
+ *
+ *   // where to put the JS bundle asset in debug mode
+ *   jsBundleDirDebug: "$buildDir/intermediates/assets/debug",
+ *
+ *   // where to put the JS bundle asset in release mode
+ *   jsBundleDirRelease: "$buildDir/intermediates/assets/release",
+ *
+ *   // where to put drawable resources / React Native assets, e.g. the ones you use via
+ *   // require('./image.png')), in debug mode
+ *   resourcesDirDebug: "$buildDir/intermediates/res/merged/debug",
+ *
+ *   // where to put drawable resources / React Native assets, e.g. the ones you use via
+ *   // require('./image.png')), in release mode
+ *   resourcesDirRelease: "$buildDir/intermediates/res/merged/release",
+ *
+ *   // by default the gradle tasks are skipped if none of the JS files or assets change; this means
+ *   // that we don't look at files in android/ or ios/ to determine whether the tasks are up to
+ *   // date; if you have any other folders that you want to ignore for performance reasons (gradle
+ *   // indexes the entire tree), add them here. Alternatively, if you have JS files in android/
+ *   // for example, you might want to remove it from here.
+ *   inputExcludes: ["android/**", "ios/**"],
+ *
+ *   // override which node gets called and with what additional arguments
+ *   nodeExecutableAndArgs: ["node"],
+ *
+ *   // supply additional arguments to the packager
+ *   extraPackagerArgs: []
+ * ]
+ */
+
+apply from: "../../node_modules/react-native/react.gradle"
+apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"
+
+/**
+ * Set this to true to create two separate APKs instead of one:
+ *   - An APK that only works on ARM devices
+ *   - An APK that only works on x86 devices
+ * The advantage is the size of the APK is reduced by about 4MB.
+ * Upload all the APKs to the Play Store and people will download
+ * the correct one based on the CPU architecture of their device.
+ */
+def enableSeparateBuildPerCPUArchitecture = false
+
+/**
+ * Run Proguard to shrink the Java bytecode in release builds.
+ */
+def enableProguardInReleaseBuilds = true
+
+def JPUSH_KEY_ID = ["stage3": "9e2cf131bcaa181162a717a3", "stage2": "9e2cf131bcaa181162a717a3", "stage1": "9e2cf131bcaa181162a717a3", "preproduction": "aa139a1fc561a3c345dbf536", "production": "aa139a1fc561a3c345dbf536"]
+def CODEPUSH_KEY_PRODUCTION = "ktRQq_drztftdXDW4ylMQQwF88Ws6ce9bfd6-d9f2-4186-a464-415cc9e6ff24"
+def CODEPUSH_KEY_TEST = "et60M2dDlHB9dIZnH4hvtC92Tixt6ce9bfd6-d9f2-4186-a464-415cc9e6ff24"
+def APP_ICON = "@mipmap/ic_launcher"
+def APP_ICON_ROUND = "@mipmap/ic_launcher_round"
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+
+    dexOptions {
+        jumboMode = true
+        dexInProcess true
+        preDexLibraries = true
+        javaMaxHeapSize "8g"
+        incremental true
+        threadCount = 8
+    }
+
+    tinyInfo {
+        resourceDir = [
+                "app/src/main/res",
+                "lib/src/main/res"
+        ]
+        resourcePattern = [
+                "drawable[a-z-]*",
+                "mipmap[a-z-]*"
+        ]
+        whiteList = [
+                //
+        ]
+        apiKey = COMPRESS_PIC
+    }
+
+    dexcount {
+        format = "list"
+        includeClasses = false
+        includeClassCount = false
+        includeFieldCount = true
+        includeTotalMethodCount = false
+        orderByMethodCount = false
+        verbose = false
+        maxTreeDepth = Integer.MAX_VALUE
+        teamCityIntegration = false
+        teamCitySlug = null
+        runOnEachPackage = true
+        maxMethodCount = 64000
+    }
+
+    defaultConfig {
+        resConfigs "zh"
+//        multiDexEnabled true
+        applicationId APPLICATION_ID
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionName = APP_VERSION_NAME
+        if ("".equals(APP_NAME)) {
+            APP_NAME = "易通贷理财"
+        }
+        if ("vivo马甲包".equals(UMENG_VALUE) || "360应用市场马甲包".equals(UMENG_VALUE)) {
+            APP_ICON = "@mipmap/icon_vest"
+            APP_ICON_ROUND = "@mipmap/icon_vest"
+        }
+        resValue("string", "growingio_project_id", "84873cbf3be76fe4")
+        resValue("string", "growingio_url_scheme", "growing.1a4cf13c1eeb3671")
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86"
+        }
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+
+        manifestPlaceholders = [
+                version_code       : APP_VERSION_CODE,
+                version_name       : APP_VERSION_NAME,
+                app_name           : APP_NAME,
+                app_icon           : APP_ICON,
+                app_icon_round     : APP_ICON_ROUND,
+                FRIEND_ID_VALUE    : FRINED_ID,
+                ENVIRONMENT_VALUE  : ENVIRONMENT,
+                UMENG_CHANNEL_VALUE: UMENG_VALUE,
+                CODEPUSH_KEY       : "production".equals(ENVIRONMENT) ? CODEPUSH_KEY_PRODUCTION : CODEPUSH_KEY_TEST,
+                JPUSH_PKGNAME      : applicationId,
+                JPUSH_APPKEY       : ("vivo马甲包".equals(UMENG_VALUE) || "360应用市场马甲包".equals(UMENG_VALUE)) ? "f4ca2351a9b7b665920fd821" : JPUSH_KEY_ID[ENVIRONMENT], //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL      : "developer-default", //暂时填写默认值即可.
+        ]
+
+        packagingOptions {
+            doNotStrip "*/armeabi/libdu.so"
+            doNotStrip "*/x86/libdu.so"
+        }
+    }
+
+    signingConfigs {
+        eTongdai {
+            keyAlias MYAPP_RELEASE_KEY_ALIAS
+            keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            storeFile file(MYAPP_RELEASE_STORE_FILE)
+            storePassword MYAPP_RELEASE_STORE_PASSWORD
+        }
+    }
+
+    splits {
+        abi {
+            reset()
+            enable enableSeparateBuildPerCPUArchitecture
+            universalApk false  // If true, also generate a universal APK
+            include "armeabi", "armeabi-v7a", "x86"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled enableProguardInReleaseBuilds
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            pseudoLocalesEnabled true
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.eTongdai
+        }
+        debug {
+            signingConfig signingConfigs.eTongdai
+        }
+    }
+
+    // applicationVariants are e.g. debug, release
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def newName
+            if ("".equals(DATE)) {
+                DATE = System.currentTimeSeconds()
+            }
+            def oldFile = output.outputFile
+            def outDirectory = oldFile.parent
+            if ("true".equals(project.IS_REMOTE)) {
+                outDirectory = OUTPUT_FILE
+                newName = "etongdai-${LABLE}-android-${UMENG_VALUE}-v${APP_VERSION_NAME}-${APP_VERSION_CODE}-${DATE}-${ENVIRONMENT}-${variant.buildType.name}.apk"
+            } else {
+                if (variant.buildType.name.equals('debug')) {
+                    newName = "etongdai-android-v${APP_VERSION_NAME}-${APP_VERSION_CODE}-debug.apk"
+                } else {
+                    newName = "etongdai-${LABLE}-android-${UMENG_VALUE}-v${APP_VERSION_NAME}-${APP_VERSION_CODE}-${DATE}-${ENVIRONMENT}-${variant.buildType.name}.apk"
+                }
+            }
+//            output.outputFile = new File(outDirectory, newName)
+            outputFileName = newName
+        }
+    }
+
+
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    compileOptions {
+    }
+}
+
+dependencies {
+    compile project(':react-native-restart')
+    compile project(':react-native-wheel')
+    compile project(':jpush-react-native')
+    compile project(':react-native-code-push')
+    compile project(':jpush-react-native')
+    // 添加 jpush 依赖
+    compile project(':jcore-react-native')
+    // 添加 jcore 依赖
+    compile project(':react-native-picker')
+    compile project(':react-native-device-info')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    // From node_modules
+    //    compile 'com.android.support:appcompat-v7:26.+'
+    compile('com.facebook.react:react-native:+') {
+        exclude group: 'com.squareup.okhttp3', module: 'okhttp'
+//        exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'com.android.support', module: 'support-v7'
+    }
+    compile 'io.github.openfeign:feign-gson:9.5.0'
+    //    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    /**
+     *        the dependencies lib
+     */
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+    compile 'me.weyye.hipermission:library:1.0.7'
+    compile 'com.growingio.android:vds-android-agent:1.1.1@aar'
+    compile 'com.networkbench:tingyun-ea-agent-android:2.5.6'
+    compile files('libs/du.jar')
+}
+
+// Run this once to be able to run the application with BUCK
+// puts all compile dependencies into folder libs for BUCK to use
+task copyDownloadableDepsToLibs(type: Copy) {
+    from configurations.compile
+    into 'libs'
+}

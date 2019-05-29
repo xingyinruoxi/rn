@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

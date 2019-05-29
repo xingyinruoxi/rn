@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/color-v23/abc_tint_edittext.xml"
+    }
+]

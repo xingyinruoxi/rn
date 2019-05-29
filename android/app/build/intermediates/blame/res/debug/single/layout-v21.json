@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/layout-v21/notification_action.xml"
+    }
+]

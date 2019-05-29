@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+            <ListView
+                android:id="@+id/country_lvcountry"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:divider="@drawable/line"
+                android:dividerHeight="0.5dp"
+                android:scrollbars="none"
+                android:listSelector="#00ffffff"
+
+                android:layout_weight="1"
+                />
+                <com.stateunion.p2p.etongdai.view.SideBarView
+                    android:id="@+id/sidrbar"
+                    android:layout_width="30.0dip"
+                    android:background="@color/line_gray"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tips"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shape_lightblue_rectangle_corners"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="30.0sp"
+                android:alpha="0.8"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/sms_loading_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/sms_loading_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/no_chat" />
+
+                <TextView
+                    android:id="@+id/sms_loading_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loading"
+                    android:textColor="@color/font_gray" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/readPermissionTipsL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+                <TextView
+                    android:id="@+id/readPermissionTipsTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请开启读取联系人权限,步骤如下:'去设置'=>'权限'=>'开启通讯录'"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_margin="10dp"
+                    />
+                <Button
+                    android:id="@+id/readPermissionTipsBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:text="去设置"
+                    />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/line_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/all_selsect"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:button="@drawable/check_box_bg"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:clickable="false"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="@string/selecteAll"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/font_gray"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/nike"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/selected"
+            android:textColor="@color/font_gray" />
+
+        <TextView
+            android:id="@+id/select_state"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/nike"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text=""
+            android:textColor="@color/font_blue" />
+
+        <TextView
+            android:id="@+id/sms_invitation"
+            android:layout_width="80dp"
+            android:layout_height="28dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/shape_blue_rectangle_corners"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="@string/msgInvite"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

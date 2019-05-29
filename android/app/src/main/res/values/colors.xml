@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0A48BF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="gray_txt">#999999</color>
+
+    <color name="line_gray">#F7F7F7</color>
+    <color name="gray_pressed">#666667</color>
+
+    <!-- 灰色字体 -->
+    <color name="font_gray">#9B9B9B</color>
+    <!-- 蓝色字体 -->
+    <color name="font_blue">#025FCC</color>
+    <color name="slide_blue">#025FCB</color>
+    <color name="blue">#A5C3EB</color>
+    <!--蓝色背景-->
+    <color name="blue_bg">#2ea7e0</color>
+    <color name="lightblue">#D1EEEE</color>
+    <!--白色-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#FFFF00</color>
+
+    <color name="gray">#AFAFAF</color>
+
+    <color name="red">#f35b42</color>
+    <color name="news_time_color">#9a9a9a</color>
+
+    <color name="circle_normal">#D8E9FC</color>
+    <color name="circle_press">#025FCC</color>
+
+    <drawable name="line">#D8D8D8</drawable>
+</resources>

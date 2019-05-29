@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher_round.png",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/icon_vest.png",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/src/main/res/mipmap-xhdpi/icon_vest.png"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]

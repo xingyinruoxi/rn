@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher_round.png",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/isclicked.png",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/src/main/res/mipmap-hdpi/isclicked.png"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/icon_vest.png",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/src/main/res/mipmap-hdpi/icon_vest.png"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/isclick.png",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/src/main/res/mipmap-hdpi/isclick.png"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/no_chat.png",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/src/main/res/mipmap-hdpi/no_chat.png"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/arrow_left.png",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/src/main/res/mipmap-hdpi/arrow_left.png"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/arrow_right.png",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/src/main/res/mipmap-hdpi/arrow_right.png"
+    }
+]

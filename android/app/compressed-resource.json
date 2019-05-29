@@ -1,0 +1,122 @@
+[
+    {
+        "preSize": "59.63KB",
+        "md5": "c2b5e2e74b79c9bbfc5bf1f48e4cf560",
+        "postSize": "59.00KB",
+        "path": "app/src/main/res/mipmap-xxxhdpi/logo_bg.png"
+    },
+    {
+        "preSize": "7.51KB",
+        "md5": "a4dc33966cb6f4b46e29beac3d2ecd72",
+        "postSize": "6.52KB",
+        "path": "app/src/main/res/mipmap-xxxhdpi/icon_vest.png"
+    },
+    {
+        "preSize": "12.24KB",
+        "md5": "032d5b9cf953d5e4ee79cf8dcabf0d4c",
+        "postSize": "12.24KB",
+        "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "preSize": "519.00B",
+        "md5": "56e3ed78980d41f9eff2170bc30fbc86",
+        "postSize": "474.00B",
+        "path": "app/src/main/res/mipmap-xxhdpi/isclicked.png"
+    },
+    {
+        "preSize": "570.00B",
+        "md5": "b0879b4b1915bec42140268094d027e9",
+        "postSize": "536.00B",
+        "path": "app/src/main/res/mipmap-xxhdpi/isclick.png"
+    },
+    {
+        "preSize": "5.65KB",
+        "md5": "9d85a37e39444760e4ed8798171b9d27",
+        "postSize": "5.02KB",
+        "path": "app/src/main/res/mipmap-xxhdpi/icon_vest.png"
+    },
+    {
+        "preSize": "8.89KB",
+        "md5": "a42502823e7bdf70cfc25c88a27bc784",
+        "postSize": "8.67KB",
+        "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "preSize": "564.00B",
+        "md5": "89610ff3b7d29a97a3f439350034d2f9",
+        "postSize": "450.00B",
+        "path": "app/src/main/res/mipmap-xxhdpi/arrow_right.png"
+    },
+    {
+        "preSize": "565.00B",
+        "md5": "66d7dc9699273d54a56fcd382a9a350c",
+        "postSize": "423.00B",
+        "path": "app/src/main/res/mipmap-xxhdpi/arrow_left.png"
+    },
+    {
+        "preSize": "3.79KB",
+        "md5": "9ee6248c10e582d88baafc04006f9dc0",
+        "postSize": "3.42KB",
+        "path": "app/src/main/res/mipmap-xhdpi/icon_vest.png"
+    },
+    {
+        "preSize": "6.24KB",
+        "md5": "b93fa3cedff8fd5ef197e02773df2ea5",
+        "postSize": "6.01KB",
+        "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "preSize": "2.08KB",
+        "md5": "93cf3e96040509871853e5bb808dd58d",
+        "postSize": "1.85KB",
+        "path": "app/src/main/res/mipmap-mdpi/icon_vest.png"
+    },
+    {
+        "preSize": "1.71KB",
+        "md5": "5660f5756c68d8cb4b624fb091777fd5",
+        "postSize": "1.49KB",
+        "path": "app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "preSize": "1008.00B",
+        "md5": "eca8341bc21ccd5168479830d7f1ab6c",
+        "postSize": "895.00B",
+        "path": "app/src/main/res/mipmap-hdpi/no_chat.png"
+    },
+    {
+        "preSize": "897.00B",
+        "md5": "2f3ca49d36d553ac5943e14eccd78e1e",
+        "postSize": "375.00B",
+        "path": "app/src/main/res/mipmap-hdpi/isclicked.png"
+    },
+    {
+        "preSize": "415.00B",
+        "md5": "0ce581952b118a10023c71feffae464b",
+        "postSize": "385.00B",
+        "path": "app/src/main/res/mipmap-hdpi/isclick.png"
+    },
+    {
+        "preSize": "2.89KB",
+        "md5": "60c709413403e9cbe871b189c2984022",
+        "postSize": "2.62KB",
+        "path": "app/src/main/res/mipmap-hdpi/icon_vest.png"
+    },
+    {
+        "preSize": "4.94KB",
+        "md5": "061b00b5edde4f657251e1b142cd0c5d",
+        "postSize": "4.74KB",
+        "path": "app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "preSize": "383.00B",
+        "md5": "d48134cee5050f13a6f7c8712b53131f",
+        "postSize": "365.00B",
+        "path": "app/src/main/res/mipmap-hdpi/arrow_right.png"
+    },
+    {
+        "preSize": "403.00B",
+        "md5": "75da246d07351572fb271ade7d4c2e3c",
+        "postSize": "361.00B",
+        "path": "app/src/main/res/mipmap-hdpi/arrow_left.png"
+    }
+]

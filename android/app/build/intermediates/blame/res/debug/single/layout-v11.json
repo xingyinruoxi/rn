@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/layout-v11/notification_template_big_media_custom.xml"
+    }
+]

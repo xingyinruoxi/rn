@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13189.4"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ETDGestureUnlockView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8eP-O6-zkq" customClass="WUGesturesUnlockView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8eP-O6-zkq" secondAttribute="trailing" id="Pjv-MM-k6E"/>
+                <constraint firstAttribute="bottom" secondItem="8eP-O6-zkq" secondAttribute="bottom" id="Qwo-4i-zbR"/>
+                <constraint firstItem="8eP-O6-zkq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="REx-ec-YGd"/>
+                <constraint firstItem="8eP-O6-zkq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hja-VE-QJ1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="unlockView" destination="8eP-O6-zkq" id="JTN-fK-kdZ"/>
+            </connections>
+            <point key="canvasLocation" x="-9" y="43"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/picker_enter.xml",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/node_modules/react-native-picker/android/build/intermediates/packaged_res/debug/anim/picker_enter.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/fade_out.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/react-native-0.45.1.aar/ed9da05d5e5bb173d042c72a5cb67ca7/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/react-native-0.45.1.aar/ed9da05d5e5bb173d042c72a5cb67ca7/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/scale.xml",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/src/main/res/anim/scale.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/picker_exit.xml",
+        "source": "/Users/zhoulin/Documents/workspace/EtongdaiRN/node_modules/react-native-picker/android/build/intermediates/packaged_res/debug/anim/picker_exit.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/scale_in.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/library-1.0.7.aar/98e5b6ed9d2c9b8d6aecd33aa4010bc4/res/anim/scale_in.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/slide_up.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/react-native-0.45.1.aar/ed9da05d5e5bb173d042c72a5cb67ca7/res/anim/slide_up.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/modal_in.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/library-1.0.7.aar/98e5b6ed9d2c9b8d6aecd33aa4010bc4/res/anim/modal_in.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/scale_out.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/library-1.0.7.aar/98e5b6ed9d2c9b8d6aecd33aa4010bc4/res/anim/scale_out.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/modal_out.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/library-1.0.7.aar/98e5b6ed9d2c9b8d6aecd33aa4010bc4/res/anim/modal_out.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_out.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/react-native-0.45.1.aar/ed9da05d5e5bb173d042c72a5cb67ca7/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/react-native-0.45.1.aar/ed9da05d5e5bb173d042c72a5cb67ca7/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/slide_down.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/react-native-0.45.1.aar/ed9da05d5e5bb173d042c72a5cb67ca7/res/anim/slide_down.xml"
+    },
+    {
+        "merged": "/Users/zhoulin/Documents/workspace/EtongdaiRN/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/zhoulin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/8c0eda6931a104aaa3ee37e7d34e2c99/res/anim/abc_grow_fade_in_from_bottom.xml"
+    }
+]
